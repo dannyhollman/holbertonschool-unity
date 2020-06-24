@@ -45,10 +45,4 @@ public class PauseMenu : MonoBehaviour
 	{
 		SceneManager.LoadScene(1);
 	}
-
-	void Update()
-	{
-		if (Input.GetKey(KeyCode.Escape))
-			Pause();
-	}
 }

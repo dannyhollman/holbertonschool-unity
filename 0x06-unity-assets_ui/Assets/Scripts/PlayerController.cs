@@ -19,6 +19,11 @@ public class PlayerController : MonoBehaviour
 
 	void Update()
 	{
+		if (Input.GetKey(KeyCode.Escape))
+		{
+			FindObjectOfType<PauseMenu>().Pause();
+		}
+
 		if (controller.transform.position.y <= -20)
 		{
 			controller.enabled = false;
