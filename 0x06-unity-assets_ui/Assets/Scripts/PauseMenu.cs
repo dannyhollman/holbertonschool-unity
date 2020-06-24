@@ -43,7 +43,7 @@ public class PauseMenu : MonoBehaviour
 
 	public void Options()
 	{
-		SceneManager.LoadScene(4);
+		SceneManager.LoadScene(1);
 	}
 
 	void Update()
