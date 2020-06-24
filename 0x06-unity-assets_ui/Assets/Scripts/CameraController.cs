@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
 {
 	public GameObject player;
 	public float sens = 5;
-	public static bool isInverted = false;
+	public bool isInverted = false;
 	private float vertical = 0f;
 	Vector3 offset;
 

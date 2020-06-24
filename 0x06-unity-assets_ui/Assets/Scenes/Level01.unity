@@ -407,6 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2118151886}
   sens: 5
+  isInverted: 0
 --- !u!45 &270413021
 Skybox:
   m_ObjectHideFlags: 0
@@ -4217,6 +4218,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 456547226619038787, guid: 9760c9a06346b4f71b73e62e5f52a9c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 456547226619038812, guid: 9760c9a06346b4f71b73e62e5f52a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4356,6 +4362,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WinCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073904719287696567, guid: cfb4eff14499847bab5ce030a0f51ce6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4073904719287696571, guid: cfb4eff14499847bab5ce030a0f51ce6,
         type: 3}

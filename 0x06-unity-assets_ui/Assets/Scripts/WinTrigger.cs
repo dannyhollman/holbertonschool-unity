@@ -13,8 +13,8 @@ public class WinTrigger : MonoBehaviour
 	void OnTriggerEnter()
 	{
 		timer.Stop();
-		//text.fontSize = 60;
-		//text.color = Color.green;
+		text.fontSize = 60;
+		text.color = Color.green;
 		winCanvas.SetActive(true);
 		endTime.text = text.text;
 		timer.Win();
