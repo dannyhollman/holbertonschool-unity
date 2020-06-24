@@ -16,12 +16,14 @@ public class PlayerController : MonoBehaviour
 	public Transform groundCheck;
 	public Transform spawn;
 	public Timer timer;
+	public PauseMenu pauseMenu;
 
 	void Update()
 	{
 		if (Input.GetKey(KeyCode.Escape))
 		{
-			FindObjectOfType<PauseMenu>().Pause();
+			//FindObjectOfType<PauseMenu>().Pause();
+			pauseMenu.Pause();
 		}
 
 		if (controller.transform.position.y <= -20)

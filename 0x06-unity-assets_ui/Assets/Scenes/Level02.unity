@@ -2564,6 +2564,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 456547226619038787, guid: 9760c9a06346b4f71b73e62e5f52a9c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 456547226619038812, guid: 9760c9a06346b4f71b73e62e5f52a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2669,6 +2674,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 456547226619038815, guid: 9760c9a06346b4f71b73e62e5f52a9c5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4522040046763531730, guid: 9760c9a06346b4f71b73e62e5f52a9c5,
         type: 3}
       propertyPath: playerController
@@ -2686,6 +2696,18 @@ PrefabInstance:
       objectReference: {fileID: 2118151893}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9760c9a06346b4f71b73e62e5f52a9c5, type: 3}
+--- !u!114 &2037021044 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4522040046763531730, guid: 9760c9a06346b4f71b73e62e5f52a9c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2037021043}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbfcf1b2a4684d79b471e9b1976d5a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2118151886 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1408061325497409439, guid: a3bebd8b66c22474db0bd407ee6e78c3,
@@ -2914,6 +2936,10 @@ PrefabInstance:
       propertyPath: spawn
       value: 
       objectReference: {fileID: 1454088588}
+    - target: {fileID: 2118151887, guid: a3bebd8b66c22474db0bd407ee6e78c3, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 2037021044}
     - target: {fileID: 2118151893, guid: a3bebd8b66c22474db0bd407ee6e78c3, type: 3}
       propertyPath: timer
       value: 

@@ -12,7 +12,8 @@ public class PauseMenu : MonoBehaviour
 	public void Pause()
 	{
 		PlayerPrefs.SetInt("lastScene", SceneManager.GetActiveScene().buildIndex);
-		gameObject.GetComponent<Canvas>().enabled = true;
+		gameObject.SetActive(true);
+		//gameObject.GetComponent<Canvas>().enabled = true;
 		Cursor.lockState = CursorLockMode.Confined;
 		Cursor.visible = true;
 		playerController.enabled = false;
@@ -22,7 +23,8 @@ public class PauseMenu : MonoBehaviour
 
 	public void Resume()
 	{
-		gameObject.GetComponent<Canvas>().enabled = false;
+		//gameObject.GetComponent<Canvas>().enabled = false;
+		gameObject.SetActive(false);
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
 		playerController.enabled = true;
