@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 999240882}
   - component: {fileID: 999240881}
   m_Layer: 5
-  m_Name: BGM
+  m_Name: BGMText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 1313830304}
   - component: {fileID: 1313830303}
   m_Layer: 5
-  m_Name: SFX
+  m_Name: SFXText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2185,7 +2185,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: e0935b4209c9447e5af06c99e576ebea, type: 3}
     m_FontSize: 60
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 60
