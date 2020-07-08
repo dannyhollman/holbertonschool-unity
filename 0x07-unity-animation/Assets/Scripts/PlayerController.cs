@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
 		else
 			animator.SetBool("Running", false);
 
-		if (controller.transform.position.y <= -15)
+		if (controller.transform.position.y <= -10)
 			animator.SetBool("Falling", true);
 		else
 			animator.SetBool("Falling", false);
