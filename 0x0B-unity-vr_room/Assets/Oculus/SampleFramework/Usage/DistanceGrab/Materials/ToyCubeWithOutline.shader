@@ -4,7 +4,7 @@ Shader "Custom/ToyCubeOutline"
 	Properties 
 	{
 		_Color("Color", Color) = (1,1,1,1)
-		_MainTex("Albedo", 2D) = "white" {}
+		_MainTex("Albedo", 2D) = "clear" {}
 		[PerRendererData] _OutlineColor ("Outline Color", Color) = (0,0,0,1)
 		_OutlineWidth ("Outline width", Range (.002, 0.03)) = .005
 		

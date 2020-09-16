@@ -58,6 +58,7 @@ namespace OculusSampleFramework
             if(dg)
             {
                 dg.InRange = true;
+                //dg.SetColor(OutlineColorInRange);
             }
 
         }
@@ -68,6 +69,7 @@ namespace OculusSampleFramework
             if(dg)
             {
                 dg.InRange = false;
+                //dg.ClearColor();
             }
         }
     }

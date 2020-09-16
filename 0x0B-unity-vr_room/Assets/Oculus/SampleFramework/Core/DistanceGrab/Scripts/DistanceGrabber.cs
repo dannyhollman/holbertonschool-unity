@@ -169,6 +169,9 @@ namespace OculusSampleFramework
                     m_grabbedObjectPosOff = relPos;
                     Quaternion relOri = Quaternion.Inverse(transform.rotation) * m_grabbedObj.transform.rotation;
                     m_grabbedObjectRotOff = relOri;
+
+                    // MY CODE
+                    Debug.Log(m_grabbedObj.gameObject.name);
                 }
                 else
                 {
